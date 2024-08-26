@@ -10,6 +10,12 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>
   <body>
+    <div>
+      <div class="header"></div>
+        <img class="header__logo" src="./img/Logo.png" alt="">
+      </div>  
+    </header>    
+    
     <div class="container">
       <div class="encriptar">
         <textarea 
@@ -19,11 +25,10 @@
           cols="30" 
           ows="10" 
           placeholder="Ingresa el texto aquí" 
-        ></textarea></textarea>
-
-      </div>
+        ></textarea>
+        </div>
       <div class="terminos">
-            <p>Solo letras minusculas y sin acento.</p>
+            <span>Solo letras minusculas y sin acento.</span>
         </div>
         <div class="botones" >
             <button class="btn-encriptar" type="button" onclick="encriptar()">
@@ -40,8 +45,9 @@
     <div class="encriptado">
         <img src="img/muñeco.png" alt="" id="muñeco" />
         <div class="mensaje-encriptado" id="mensaje-encriptado">
-             <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
-             <p id="parrafo">ingresa el texto que desea encriptar o desencriptar</p>
+          <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+          <p id="parrafo">Ingresa el texto que desea encriptar o desencriptar.</p>
+          <button class="boton__copiar oculto">Copiar</button>
         </div>   
     </div>
   </div> 
