@@ -49,8 +49,8 @@ header{
 
 .texto:focus,
 .texto:active {
-  border: none;
-  outline: none;
+border: none;
+outline: none;
 }
 .terminos {
     display: flex;
@@ -124,6 +124,17 @@ header{
     text-align: center;
     color:#0a3871;
 }
+.boton__copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;  
+}
 .muñeco{
     width: 100%;
 }
@@ -132,9 +143,9 @@ header{
     background: transparent;
     color:#0a3871;
 }*/
-/*.oculto{
-   display: none;
-}*/
+.oculto{
+    display: none;
+}
 .btn-desencriptar:hover,
 .btn-encriptar:hover {
     margin: 0.3%;
